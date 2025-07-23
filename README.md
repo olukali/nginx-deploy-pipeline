@@ -36,8 +36,6 @@ Edit
 
 ## 🏗️ CI/CD Pipeline Overview
 
-```mermaid
-graph TD
     A[Push to Main Branch] --> B[Build Docker Image]
     B --> C[Test Docker Container]
     C --> D[Deploy to AWS Lightsail]
